@@ -1,0 +1,191 @@
+
+@media(max-width: 1760px){
+    .block-story__island-cloud-left,.block-story__island-cloud-right {
+        display: none;
+    }
+}
+@media(max-width: 1460px){
+    .feature-card{
+        flex-direction: column;
+        align-items: center
+    }
+    .feature-card-two{
+        margin: 320px 0 ;
+    }
+}
+@media(min-width: 992px){
+    .hide-on-pc {
+        display: none;
+    }
+
+} 
+
+@media(max-width: 992px){
+    .hide-on-tablet{
+        display: none;
+    }
+    .block-story{
+        margin-bottom: 360px;
+    }
+    .block-story__content{
+        height: 1132px;
+        width: 382px;
+        background-image: url('./img/svg/paper-long.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50% 50%; 
+        padding: 58px 34px 76px;
+        position: relative;
+    }
+    .block-story__content--tree-bottom{
+        width: 215px;
+        height: 258px;
+        position: absolute;
+        right: -7px;
+        bottom: -85px;
+      }
+    .block-story__content--tree-top
+    {    
+    position: absolute;
+    top: -34px;
+    left: -18px;
+    width: 174px;
+    }
+    .feature-card-two{
+        margin: 220px 0 ;
+    }
+    .block-game-play__content,.block-story__content--main-content,.block-features__content{
+    width: 306px;
+    }
+    .feature-card__content{
+        width: 288px;
+    height: 322px
+    }
+    .feature-card{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .feature-card__star{
+        width: 100px;
+        position: absolute;
+        left: -74px;
+        bottom: -40px;
+      }
+    .feature-card-two{
+        height: 449px;
+        background: url('img/svg/paper-mobile-long.svg');
+    }
+    .feature-card-two .feature-card__star{
+        width: 91px;
+    }
+    .feature-card__img{
+        top: -187px;
+    }
+    .feature-card-one .feature-card__img img{
+        width: 297px;
+    }
+    .feature-card-two .feature-card__img img{
+        width: 220px;
+    }    
+    .feature-card-three .feature-card__img img{
+        width: 265px;
+    }
+
+      .feature-card-two .feature-card__img{
+        left: 38px;
+      }
+      .feature-card-one .feature-card__star{
+        left: -43px;
+      }
+      .feature-card-two .feature-card__star{
+        width: 80px;
+        top: -21px;
+        left: -24px;
+      }
+      .feature-card-three .feature-card__img{
+        right: 8px;
+        top: -159px;
+      }
+      .feature-card-three .feature-card__star{
+        bottom: -47px;
+        left: 217px
+
+      }
+} 
+@media (min-width: 768px) and (max-width: 992px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    .header__main-img{
+        width: 446px;
+        height: auto;
+        margin-bottom: 270px;
+    }
+    .header__main-img-wrap{
+        padding-top: 89px;
+    }
+    .header{
+        height: 790px;
+    }
+
+
+    
+}
+@media (min-width: 414px) and (max-width: 768px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    .header{
+        height: 790px;
+        background-position: 50% -128px;
+    }
+    .header__main-img{
+        width: 329px;
+        height: 169px;
+        margin-bottom: 240px
+    }
+    .header__main-img-wrap{
+        padding-top: 89px;
+    }
+    .header__download{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__download--app-store{
+        margin-right: 0;
+        margin-bottom: 17px;
+    }
+    .title-content img{
+        width: 281px;
+    }
+}
+@media(max-width:414px){
+    .header{
+        height: 790px;
+        background-position: 50% -128px;
+    }
+    .header__main-img{
+        width: 329px;
+        height: 169px;
+        margin-bottom: 240px
+    }
+    .header__main-img-wrap{
+        padding-top: 89px;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+    .header__download{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__download--app-store{
+        margin-bottom: 17px;
+        margin-right: 0;
+    }
+    .title-content img{
+        width: 281px;
+    }
+
+}
