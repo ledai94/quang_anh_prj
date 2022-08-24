@@ -4,8 +4,12 @@
   }
 html{
   width: auto;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 body{
+  max-width: 100%;
+  overflow-x: hidden;
   margin: 0px;
 
 
@@ -35,6 +39,10 @@ body{
   padding-left:auto ;
   padding-right:auto ;
   margin-bottom: 92px;
+}
+.navbar-story{
+  margin-left: 9px;
+  margin-right: 9px; 
 }
 .header__main-img{
   width: 669px;
@@ -115,25 +123,31 @@ body{
 }
 
 /* BLOCK GAME PLAY */
-.block-game-play__content{
-  margin-bottom: 40px;
+.block-game-play{
+  margin-bottom: 191px;
 }
+
 .block-game-play__slideshow img{
   margin-left: 32px;
   margin-right: 32px;
 }
 
 .block-game-play__slideshow{
-  display: none !important;
+  /* display: none !important; */
 }
 .block-game-play__content,.block-story__content--main-content,.block-features__content{
   width: 651px;
   margin: auto;
 }
+.block-game-play__content{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
 .feature-card{
   display: flex;
   justify-content: center;
   margin-top: 287px;
+  margin-bottom: 132px;
 }
 .feature-card__content{
   position: relative;
@@ -193,4 +207,166 @@ body{
 .feature-card-three .feature-card__star{
   left: 266px;
   bottom: -47px;
+}
+.stroke-text-dash  {
+	margin: 2em 0 1em;
+}
+/* BLOCK ROADMAP */
+/* .border01 {
+  border-top: 1px dashed #000;
+}
+.border02 {
+  height: 1px;
+  background-image: linear-gradient(90deg, #000, #000 75%, transparent 75%, transparent 100%);
+  background-size: 20px 1px;
+  border: none;
+} */
+.border03 {
+  height: 2px;
+  /* background-color: #5DD200; */
+  background-image: linear-gradient(90deg, transparent, transparent 50%, #fff 50%, #fff 100%), linear-gradient(90deg, #5DD200, #5DD200, #5DD200, #5DD200, #5DD200);
+  /* background-image: linear-gradient(90deg, transparent, transparent 50%, #fff 50%, #fff 100%), linear-gradient(90deg, #69d2e7, #a7dbd8, #e0e4cc, #f38630, #fa6900); */
+
+  background-size: 20px 3px, 100% 3px;
+  border: none;
+}
+.block-roadmap__time-line{
+  height: 40px;
+}
+.block-roadmap__time-line--hr{
+  width: 985px;
+  margin: auto;
+  height: 3px;
+}
+.block-roadmap__time-line--nodelist{
+  display: flex;
+  position: relative;
+  top: -17px;
+  margin: auto;
+  width: 500px;
+}
+.node{
+  /* border: 6px solid #F5A6A7; */
+  box-shadow:0 0 0 8px #C0F3C2;
+  -webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  background-color: #47A200;
+  display: table;
+  position: relative;
+  overflow:hidden;
+  opacity: 0.99;
+  z-index:999
+}
+.roadmap-phase{
+  display: flex;
+  margin: auto;
+  width: 1206px;
+}
+.node-one {
+  left: -240px;
+}
+.node-two {
+  left: 60px;
+}
+.node-three {
+  left: 304px;
+}
+.node-four {
+  left: 607px;
+}
+.phase__star{
+  margin-right: 4px;
+}
+.phase__star img{
+  width: 24px;
+  transform: rotate(-20deg);
+}
+.phase__title{
+  font-weight: 800;
+font-size: 24px;
+line-height: 33px;
+color: #4CA7E8;
+}
+.star-and-content-item-wrap{
+  display: flex;
+  align-items: center;
+}
+.phase__content-item{
+  font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: #5B3511
+}
+.phase-one{
+  margin-left: 15px;
+  margin-right: 91px;
+}
+
+.phase-two{
+/* margin-right: 13px; */
+}
+.phase-three{
+  /* margin-left: 25px;
+  margin-right: 100px; */
+  position: relative;
+  left:69px ;
+}
+.phase-four{
+  position: relative;
+  left: 168px;
+}
+/* FOOTER */
+.footer{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 110px;
+}
+.footer__main-img{
+  width: 312.38px;
+  margin-bottom: 69px;
+}
+.footer__play-now{
+  margin-bottom: 41px;
+}
+.footer__play-now img{
+  width:280px;
+}
+.footer__download{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-bottom: 64px;
+
+}
+.footer__download img{
+  width: 211.64px;
+
+}
+.footer__download--app-store{
+  margin-right: 36px;
+}
+
+.footer__text{
+  margin-bottom: 24px;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  align-items: center;
+  text-align: center;
+}
+.footer__list-icon{
+  margin-bottom: 54px;
+}
+.text-defaul-title-style{
+  background: -webkit-linear-gradient(#FDE092,#C18B2C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.icon-social-center{
+  margin: 0 64px;
 }

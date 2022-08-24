@@ -1,8 +1,75 @@
 
 @media(max-width: 1760px){
-    .block-story__island-cloud-left,.block-story__island-cloud-right {
+    /* .block-story__island-cloud-left,.block-story__island-cloud-right {
+        display: none;
+    } */
+}
+@media (min-width:1243px){
+    .show-to-1243{
         display: none;
     }
+    
+}
+@media(max-width:1243px){
+    .block-roadmap__time-line--nodelist{
+    }
+    .hide-to-1243{
+        display: none;
+    }
+    .roadmap-phase{
+        display: flex;
+        flex-direction: column;
+        width: 278px;
+    }
+    .phase-one{
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+      
+    .phase-two{
+    /* margin-right: 13px; */
+    }
+    .phase-three{
+    /* margin-left: 25px;
+    margin-right: 100px; */
+    position: relative;
+    left:0px ;
+    }
+    .phase-four{
+    position: relative;
+    left: 0px;
+    }
+    .star-and-content-item-wrap{
+        margin-bottom: 10px;
+    }
+    .star-and-content-item-container{
+        margin-bottom: 20px;
+    }
+    .phase__title{
+        margin-bottom: 10px;
+    }
+    .phase__star{
+        margin-right: 4px;
+    }
+    .show-to-1243 {
+        transform: rotate(90deg);
+        position: relative;
+        top: 506px;
+        left: -200px;
+
+    }
+    .node-one {
+        left: -240px;
+      }
+      .node-two {
+        left: 153px;
+      }
+      .node-three {
+        left: 499px;
+      }
+      .node-four {
+        left: 647px;
+      }
 }
 @media(max-width: 1460px){
     .feature-card{
@@ -46,10 +113,17 @@
       }
     .block-story__content--tree-top
     {    
-    position: absolute;
-    top: -34px;
-    left: -18px;
-    width: 174px;
+        position: absolute;
+        top: -34px;
+        left: -18px;
+        width: 174px;
+    }
+    .block-game-play{
+        margin-bottom: 138px;
+      }
+    .block-game-play__content{
+        margin-bottom: 26px;
+        margin-top: 24px;
     }
     .feature-card-two{
         margin: 220px 0 ;
@@ -112,6 +186,40 @@
         left: 217px
 
       }
+
+      .footer{
+          flex-direction: column;
+      }
+      .footer__main-img{
+        width: 240px;
+        margin-bottom: 42px;
+        display: block;
+      }
+      .footer__play-now{
+        margin-bottom: 24px;
+      }
+      .footer__play-now img{
+        width: 274px;
+      }
+      .footer__download{
+        flex-direction: column;
+        margin-bottom: 74px;
+      }
+      .footer__download--app-store{
+        margin-right: 0;
+        margin-bottom: 16px;
+      }
+      
+      .footer__text{
+        width: 196px;
+        margin-bottom: 31px;
+        margin-top: 0px;
+      }
+      .footer__list-icon{
+        margin-bottom: 54px;
+      }
+
+
 } 
 @media (min-width: 768px) and (max-width: 992px) {
     .hide-on-tablet {
