@@ -20,6 +20,8 @@ body{
   font-family: nunito, sans-serif;
   font-weight: 500;
   color: #5B3511;
+}html {
+  scroll-behavior: smooth;
 }
 a, a:hover, a:focus, a:active {
   text-decoration: none;
