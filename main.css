@@ -21,6 +21,16 @@ body{
   font-weight: 500;
   color: #5B3511;
 }
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+.mr-18{
+  margin-right: 18px;
+}
+.ml-18{
+  margin-left: 18px;
+}
 .bg-header-1 .bg-header-1{
   position: absolute;
 }
@@ -49,7 +59,7 @@ body{
   padding-right:auto ;
   margin-bottom: 92px;
 }
-.navbar-item{
+.navbar-item-wrap{
   margin-left: 9px;
   margin-right: 9px; 
 }
@@ -85,7 +95,7 @@ body{
   padding-bottom: 100px;
 }
 .header__download--app-store{
-  margin-right: 36px;
+  /* margin-right: 36px; */
 }
 
 /* BLOCK STORY */
@@ -166,6 +176,7 @@ body{
 }
 
 .block-game-play__slideshow img{
+  width: 968px;
   margin-left: 32px;
   margin-right: 32px;
 }
@@ -430,7 +441,7 @@ color: #5B3511
   width: 100%;
   text-align: center;
   position: absolute;
-  top: 40%;
+  top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -461,4 +472,31 @@ color: #5B3511
 .navbar-roadmap .navbar-item-text{
   width: 179px;
 } */
+.wrap-btn-play-now-pc{
+  display: block;
+  width: 324px;
+  height: 111px;
+  background-image:  url("img/svg/bg-playnow.svg");
+  margin: auto;
+  margin-bottom: 40px;
 
+}
+.btn-play-now-pc{
+  display: block;
+    margin: auto;
+    width: 282px;
+    height: 68px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    background-image: url(img/svg/btn-playnow-pc-bg1.svg);
+    position: relative;
+    top: 9px;
+
+  /* box-shadow: -10px -10px 10px #ccc;
+  border-top-left-radius:16px;
+  border-top-right-radius:16px;
+  border-bottom-left-radius:16px;
+  border-bottom-right-radius:16px; */
+}

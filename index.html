@@ -22,30 +22,43 @@
         <!-- <img class="bg-header-1" src="img/svg/bg-header-1.png" alt="bg-header-1">
         <img class="bg-header-2" src="img/svg/bg-header-2.png" alt="bg-header-2"> -->
         <div class="header__navbar hide-on-mobile hide-on-tablet">
-            <div class="navbar-story navbar-item">
-                <img src="img/svg/btn-navbar-pc-story-bg.svg" alt="">
-                <div class="navbar-item-text">Story</div>
-            </div>
-            <div class="navbar-game-play navbar-item">
-                <img src="img/svg/btn-navbar-pc-gameplay-bg.svg " alt="">
-                <div class="navbar-item-text">Game play</div>
-            </div>
-            <div class="navbar-feature navbar-item">
-                <img src="img/svg/btn-navbar-pc-features-bg.svg" alt="">
-                <div class="navbar-item-text">Feature</div>
-            </div>
-            <div class="navbar-roadmap navbar-item">
-                <img src="img/svg/btn-navbar-pc-roadmap-bg.svg" alt="">
-                <div class="navbar-item-text">Roadmap</div>
-            </div>
+            <a href="#story-element" class="navbar-item-wrap">
+                <div class="navbar-story navbar-item">
+                    <img src="img/svg/btn-navbar-pc-story-bg.svg" alt="">
+                    <div class="navbar-item-text">Story</div>
+                </div>
+            </a>
+            <a href="#gameplay-element" class="navbar-item-wrap">
+                <div class="navbar-game-play navbar-item">
+                    <img src="img/svg/btn-navbar-mobile-gameplay.svg " alt="">
+                    <div class="navbar-item-text">Game play</div>
+                </div>
+            </a>
+            <a href="#features-element" class="navbar-item-wrap">
+                <div class="navbar-feature navbar-item">
+                    <img src="img/svg/btn-navbar-pc-features-bg.svg" alt="">
+                    <div class="navbar-item-text">Features</div>
+                </div>
+            </a>
+            <a href="#roadmap-element" class="navbar-item-wrap">
+                <div class="navbar-roadmap navbar-item">
+                    <img src="img/svg/btn-navbar-pc-roadmap-bg.svg" alt="">
+                    <div class="navbar-item-text">Roadmap</div>
+                </div>
+            </a>
         </div>
         <a href="#" class="hide-on-pc toggle-navbar-mobile js-show-navbar-mobile">
-            <img src="img/svg/btn-circle-normal.svg" alt="btn-normal">
+            <img src="img/svg/btn-circle-collapse.svg" alt="btn-normal">
         </a>
         <div class="header__main-img-wrap">
             <img class="header__main-img" src="img/svg/main-logo.svg" alt="banner-logo">
         </div>
-        <img class="header__play-now" src="img/svg/bg-playnow.svg" alt="banner-logo">
+        <span class="wrap-btn-play-now-pc">
+            <a href="https://dapp.gardenuniverse.io/" target="_blank">
+                <span class="btn-play-now-pc">play now</span>
+            </a>
+        </span>
+        <!-- <img class="header__play-now" src="img/svg/bg-playnow.svg" alt="banner-logo"> -->
 
         <!-- <div class="wrap-header-playnow">
             <div class="header-playnow-container">
@@ -55,13 +68,17 @@
 
         </div>
         <div class="header__download">
-            <img class="header__download--app-store" src="img/svg/appstore.svg" alt="appstore-icon-download">
+            <a href="https://testflight.apple.com/join/sYXLCXwI" target="_blank" class="mr-18 mb-8">
+                <img class="header__download--app-store" src="img/svg/appstore.svg" alt="appstore-icon-download">
+            </a>
+            <a href="https://gardenuniverse.s3.ap-southeast-1.amazonaws.com/gardenuniverse.apk" target="_blank" class="ml-18 mt-8">
             <img class="header__download--google-play" src="img/svg/googleplay.svg" alt="googleplay-icon-download">
+        </a>
         </div>
         <!-- <img class="bg-header-footer" src="" alt=""> -->
     </header>
     <main class="bg-pc">
-        <div class="block-story ">
+        <div id="story-element" class="block-story ">
             <div class="block-story__title title-content">
                 <!-- Story -->
                 <img src="img/svg/bg-title.svg" alt="title-menu">
@@ -99,7 +116,7 @@
 
             <!-- <img class="block-story__clound-background" src="img/svg/" alt="img-cloud"> -->
         </div>
-        <div class="block-game-play ">
+        <div id="gameplay-element" class="block-game-play ">
             <div class="block-game-play__title title-content">
                 <img src="img/svg/bg-title.svg" alt="title-menu">
                 <div class="block-game-play__title--text block-title-text">Game play</div>
@@ -108,13 +125,13 @@
                 <p>The game is based on the concept of creating and growing an ecosystem on a mystery land. This aids individuals in the cloud in locating new territory on which to settle and begin a new life. By growing animals and incubating and cultivating seeds for good growth, this land will become a wealthier, more modern location. You will develop into a skilled adventurer who is free to create your own environment.</p>
             </div>
             <div class="block-game-play__slideshow">
-                    <img src="img/svg/slide-show-img-1.svg" alt="">
-                    <img src="img/svg/slide-show-img-1.svg" alt="">
-                    <img src="img/svg/slide-show-img-1.svg" alt="">
+                    <img src="img/svg/slide-show-img-2.jpg" alt="slide-show-img-2">
+                    <img src="img/svg/slide-show-img-1.svg" alt="slide-show-img-1">
+                    <img src="img/svg/slide-show-img-3.jpg" alt="slide-show-img-3">
 
             </div>
         </div>
-        <div class="block-features ">
+        <div id="features-element" class="block-features ">
             <div class="block-features__title title-content">
                 <img src="img/svg/bg-title.svg" alt="title-menu">
                 <div class="block-features__title--text block-title-text">Features</div>
@@ -161,7 +178,7 @@
                 </div>
             </div>
         </div>
-        <div class="block-roadmap ">
+        <div id="roadmap-element" class="block-roadmap ">
             <div class="block-roadmap__title title-content">
                 <img src="img/svg/bg-title.svg" alt="title-menu">
                 <div class="block-roadmap__title--text block-title-text">Roadmap</div>
@@ -301,10 +318,18 @@
     </main>
     <footer class="footer">
         <img class="footer__main-img" src="img/svg/main-logo.svg" alt="logo">
-        <div class="footer__play-now"><img src="img/svg/bg-playnow.svg" alt="img-playnow"></div>
+        <!-- <div class="footer__play-now"><img src="img/svg/bg-playnow.svg" alt="img-playnow"></div> -->
+        <span class="wrap-btn-play-now-pc">
+            <a href="https://dapp.gardenuniverse.io/" target="_blank">
+                <span class="btn-play-now-pc">play now</span>
+            </a>
+        </span>
         <div class="footer__download">
+            <a href="https://testflight.apple.com/join/sYXLCXwI" target="_blank">
             <img class="footer__download--app-store" src="img/svg/appstore.svg" alt="appstore-icon-download">
-            <img class="footer__download--google-play" src="img/svg/googleplay.svg" alt="googleplay-icon-download">
+        </a>
+        <a href="https://gardenuniverse.s3.ap-southeast-1.amazonaws.com/gardenuniverse.apk" target="_blank">
+            <img class="footer__download--google-play" src="img/svg/googleplay.svg" alt="googleplay-icon-download"></a>
         </div>
         <h5 class="footer__text text-defaul-title-style">Garden Universe Social Channels</h5>   
         <div class="footer__list-icon">
@@ -316,28 +341,27 @@
     <div class="overlay js-hide-navbar-mobile hide-on-pc">
     </div>
     <div class="navbar-mobile hide-on-pc">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="/img/svg/btn-circle-normal.svg" alt=""></a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="img/svg/btn-circle-close.svg" alt=""></a>
         <div class="overlay-content">
-            <a class="js-hide-navbar-mobile navbar-mobile-item-text" href="#">   
-                <img class="navbar-story navbar-item" src="img/svg/btn-normal.svg" alt="">
-                <!-- <div class="navbar-item-text ">Story</div> -->
+            <a class="js-hide-navbar-mobile navbar-mobile-item-text" href="#story-element">   
+                <span class="navbar-story navbar-item"  alt="">Store</span>
                 <!-- <div >
                 </div> -->
             </a>
-            <a class="js-hide-navbar-mobile navbar-mobile-item-text" href="#">
-                <img class="navbar-game-play navbar-item" src="img/svg/btn-navbar-mobile-gameplay.svg " alt="">
+            <a class="js-hide-navbar-mobile navbar-mobile-item-text" href="#gameplay-element">
+                <span class="navbar-game-play navbar-item">Gameplay</span>
                 <!-- <div class="navbar-item-text ">Game play</div> -->
 
                 <!-- <div >
                 </div> -->
             </a>
-            <a class="js-hide-navbar-mobile navbar-mobile-item-text" href="#">
-                <img class="navbar-feature navbar-item" src="img/svg/btn-navbar-mobile-features.svg" alt="">
+            <a class="js-hide-navbar-mobile navbar-mobile-item-text" href="#features-element">
+                <span class="navbar-feature navbar-item" >Features</span>
                 <!-- <div class="navbar-item-text ">Features</div> -->
 
             </a>
-            <a class="js-hide-navbar-mobile navbar-mobile-item-text" href="#">
-                <img class="navbar-roadmap navbar-item" src="img/svg/btn-navbar-mobile-roadmap.svg" alt="">
+            <a class="js-hide-navbar-mobile navbar-mobile-item-text" href="#roadmap-element">
+                <span class="navbar-roadmap navbar-item">Roadmap</span>
                 <!-- <div class="navbar-item-text ">Roadmap</div> -->
 
             </a>
