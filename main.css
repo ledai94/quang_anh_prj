@@ -179,8 +179,8 @@ a, a:hover, a:focus, a:active {
 
 .block-game-play__slideshow img{
   width: 968px;
-  margin-left: 32px;
-  margin-right: 32px;
+  /* margin-left: 32px;
+  margin-right: 32px; */
 }
 
 .block-game-play__slideshow{
@@ -585,4 +585,31 @@ color: #5B3511
 }
 .pc-hr .block-roadmap__time-line--nodelist{
   top: -15px;
+}
+.boxed {
+  width: 944px;
+  height: 548px;
+  background-image: linear-gradient(180deg, #FDE092 0%, #C18B2C 100%);
+  padding: 10px;
+  border-radius: 3%;
+
+  /* border-radius: 10px; */
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.boxed-child {
+  width: 100%;
+  height: 100%;
+  background-color: #191a28;
+  border-radius: inherit;
+}
+.block-game-play__slideshow img{
+  width: 928px;
+  /* margin-left: 32px;
+  margin-right: 32px; */
+}
+.boxed{
+  /* margin-right: 8px;
+  margin-left: 8px; */
+  padding: 8px;
 }
