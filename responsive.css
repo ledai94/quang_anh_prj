@@ -132,7 +132,10 @@
         width: 48px ;
     }
 
-
+.icon-social img{
+  width: 32px;
+}
+}
     .block-story__content{
         height: 1132px;
         width: 382px;
