@@ -15,7 +15,7 @@ body{
 
   font-family: Nunito;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 21.8px;
   text-align: left;
   font-family: nunito, sans-serif;
   font-weight: 500;
@@ -138,9 +138,8 @@ a, a:hover, a:focus, a:active {
 
 }
 .block-story__island-cloud-left{
-  
   bottom: 829px;
-  left: -476px;
+  left: -395px;
 
 }
 .block-story__island-cloud-right{
@@ -232,7 +231,7 @@ a, a:hover, a:focus, a:active {
 
 }
 .feature-card__content--description{
-  width: 258px;
+  width: 204px;
   margin: auto;
   text-align: center;
 }

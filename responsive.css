@@ -43,7 +43,7 @@
     left: 0px;
     }
     .star-and-content-item-wrap{
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
     .star-and-content-item-container{
         margin-bottom: 20px;
@@ -64,13 +64,13 @@
         left: -240px;
       }
       .node-two {
-        left: 153px;
+        left: 160px;
       }
       .node-three {
-        left: 499px;
+        left: 520px;
       }
       .node-four {
-        left: 647px;
+        left: 665px;
       }
       .block-game-play__slideshow img{
         width: 600px;
@@ -109,6 +109,7 @@
         display: none;
     }
     .block-story{
+      /* height:1400px */
         margin-bottom: 330px;
     }
 
@@ -119,7 +120,7 @@
     }
 
     .toggle-navbar-mobile img{
-        width: 60px ;
+        width: 48px ;
     }
 
 
@@ -178,7 +179,7 @@
         margin: 220px 0 ;
     }
     .block-game-play__content,.block-story__content--main-content,.block-features__content{
-    width: 306px;
+    width: 316px;
     }
     .feature-card__content{
         width: 288px;
@@ -252,7 +253,7 @@
       }
       .footer__download{
         flex-direction: column;
-        margin-bottom: 74px;
+        margin-bottom: 50px;
       }
       .footer__download--app-store{
         margin-right: 0;
@@ -423,6 +424,9 @@
   width: 109px;
   height: 25px;
 }
+.footer{
+  margin-top: 80px;
+}
 
 } 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -454,7 +458,7 @@
     margin-left: 0px;
   }
   .header{
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
   }
   .block-story__title--text.block-title-text{
     background-image: url(img/svg/text-story-97-50.png);
@@ -478,8 +482,24 @@
       height: 33px;
       background-image: url(img/svg/text-roadmap-155-50.png);
 
+  }    
+  .header__download img,.footer__download img{
+    width: 150px;
   }
-
+  .wrap-btn-play-now-pc{
+display: block;
+    width: 225px;
+    height: 78px;
+    background-image: url(img/svg/bg-playnow.svg);
+    background-size: contain;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .btn-play-now-pc {
+    width: 186px;
+    height: 55px;
+    background-size: contain;
+}
 }
 
 @media (min-width: 414px) and (max-width: 768px) {
@@ -502,6 +522,7 @@
         flex-direction: column;
         align-items: center;
     }
+
     .header__download--app-store{
         margin-right: 0;
         /* margin-bottom: 17px; */
