@@ -274,7 +274,6 @@ a, a:hover, a:focus, a:active {
 } */
 .border03 {
   height: 2px;
-  /* background-image: url(img/svg/hr-vertical-sv); */
   /* background-color: #5DD200; */
   background-image: linear-gradient(90deg, transparent, transparent 50%, #fff 50%, #fff 100%), linear-gradient(90deg, #5DD200, #5DD200, #5DD200, #5DD200, #5DD200);
   /* background-image: linear-gradient(90deg, transparent, transparent 50%, #fff 50%, #fff 100%), linear-gradient(90deg, #69d2e7, #a7dbd8, #e0e4cc, #f38630, #fa6900); */
@@ -286,19 +285,14 @@ a, a:hover, a:focus, a:active {
   height: 40px;
 }
 .block-roadmap__time-line--hr{
-  transform: rotate(90deg);
-    right: -271px;
-    position: relative;
-    top: -294px;
-  /* width: 985px;
+  width: 985px;
   margin: auto;
-  height: 3px; */
-  /* background-image: url(img/svg/hr-vertical-svg.svg); */
+  height: 3px;
 }
 .block-roadmap__time-line--nodelist{
   display: flex;
   position: relative;
-  top: 231px;
+  top: -17px;
   margin: auto;
   width: 500px;
 }
@@ -457,12 +451,12 @@ color: #5B3511
 }
 
 .navbar-story.navbar-item .navbar-item-text{
-  background: url("img/"); 
+  background: url("img/svg/"); 
 }
 
 
 .navbar-item{
-  height: 49px;
+  /* height: 49px; */
 }
 .navbar-item-text{
   font-weight: 800;
@@ -499,90 +493,20 @@ color: #5B3511
 }
 .btn-play-now-pc{
   display: block;
-  margin: auto;
-  width: 282px;
-  height: 87px;
-  font-weight: 800;
-  font-size: 48px;
-  line-height: 58px;
-  text-align: center;
-  background-image: url(img/svg/btn-playnow-280.png);
-  position: relative;
-  top: 0px;
+    margin: auto;
+    width: 282px;
+    height: 68px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    background-image: url(img/svg/btn-playnow-pc-bg1.svg);
+    position: relative;
+    top: 9px;
 
   /* box-shadow: -10px -10px 10px #ccc;
   border-top-left-radius:16px;
   border-top-right-radius:16px;
   border-bottom-left-radius:16px;
   border-bottom-right-radius:16px; */
-}
-/* TEXT */
-.block-story__title--text.block-title-text{
-    width: 125px;
-    height: 48px;
-    background-image: url(img/svg/text-story-125-65.png);
-    background-size: contain;
-    background-position: center;
-}
-.block-game-play__title--text.block-title-text{
-    width: 229px;
-    height: 48px;
-    background-image: url(img/svg/text-gameplay-229-65.png);
-    background-size: contain;
-    background-position: center;
-}
-.block-features__title--text.block-title-text{
-    width: 195px;
-    height: 38px;
-    background-image: url(img/svg/text-features-197-65.png);
-    background-size: contain;
-    background-position: center;
-}
-.block-roadmap__title--text.block-title-text{
-    width: 214px;
-    height: 48px;
-    background-image: url(img/svg/text-roadmap-216-65.png);
-    background-size: contain;
-    background-position: center;
-}
-.feature-card__content--title{
-  background: transparent;
-  background-size: contain;
-  background-position: center;
-}
-.sky-graden{
-  width:131px ;
-  height:26px;
-  background-image: url(img/svg/text-skygraden-131.png);
-}
-.warehouse{
-  width:130px ;
-  height:22px;
-  background-image: url(img/svg/text-warehouse-130-33.png);
-
-}
-.marketplace{
-  width:142px ;
-  height:26px;
-  background-image: url(img/svg/text-marketplace-141.png);
-
-}
-.footer__text.text-defaul-title-style{
-  width: 377px;
-  height: 33px;
-  background-image: url(img/svg/text-social-377-33.png);
-  background:transparent;
-  background-size: contain;
-  background-position: center;
-}
-.pc-hr .block-roadmap__time-line--hr{
-  display: block;
-  transform: rotate(0deg);
-  right: 0;
-  position: relative;
-  top: -33px;
-  margin: auto;
-}
-.pc-hr .block-roadmap__time-line--nodelist{
-  top: -15px;
 }

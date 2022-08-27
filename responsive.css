@@ -17,9 +17,12 @@
         display: none;
     }
     .roadmap-phase{
+      position: relative;
         display: flex;
         flex-direction: column;
         width: 278px;
+        right: -52px;
+
     }
     .phase-one{
         margin-left: 0px;
@@ -52,11 +55,10 @@
         margin-right: 4px;
     }
     .show-to-1243 {
-        transform: rotate(90deg);
-        position: relative;
-        top: 506px;
-        left: -200px;
-
+      transform: rotate(90deg);
+      position: absolute;
+      top: 467px;
+      right: -171px;
     }
     .node-one {
         left: -240px;
@@ -98,7 +100,7 @@
         display: none;
     }
     .block-story{
-        margin-bottom: 300px;
+        margin-bottom: 330px;
     }
 
     .toggle-navbar-mobile{
@@ -342,7 +344,7 @@
   }
   /* The navigation links inside the overlay */
   .navbar-mobile a {
-    line-height: 49px;
+    line-height: 40px;
     font-weight: 600;
     color: #3c3131;
     padding: 0px;
@@ -371,6 +373,35 @@
   .closebtn{
     /* background-image: url("img/svg/btn-circle-normal.svg"); */
   }
+  .social-text-mobile{
+    width: 188px !important; 
+    height:52px !important;
+  }
+.navbar-mobile .navbar-story img{
+  position: relative;
+  bottom: -8px;
+  width: 64px;
+  height: 25px;
+}
+.navbar-mobile .navbar-game-play img{
+  position: relative;
+  bottom: -8px;
+  width: 116px;
+  height: 25px;
+  display: inline-block;
+}
+.navbar-mobile .navbar-feature img{
+  position: relative;
+  bottom: -4px;
+  width: 98px;
+  height: 20px;
+}
+.navbar-mobile .navbar-roadmap img{
+  position: relative;
+  bottom: -8px;
+  width: 109px;
+  height: 25px;
+}
 
 } 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -404,9 +435,32 @@
   .header{
     margin-bottom: 100px;
   }
+  .block-story__title--text.block-title-text{
+    background-image: url(img/svg/text-story-97-50.png);
+    width: 84px;
+    height: 33px;
+  }
+    .block-game-play__title--text.block-title-text{
+      width: 154px;
+      height: 33px;
+      background-image: url(img/svg/text-gameplay-155-50-2.png);
 
+  }
+  .block-features__title--text.block-title-text{
+      width: 131px;
+      height: 27px;
+      background-image: url(img/svg/text-features-155-50.png);
+
+  }
+  .block-roadmap__title--text.block-title-text{
+      width: 144px;
+      height: 33px;
+      background-image: url(img/svg/text-roadmap-155-50.png);
+
+  }
 
 }
+
 @media (min-width: 414px) and (max-width: 768px) {
     .hide-on-tablet {
         display: none;
