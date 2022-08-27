@@ -37,6 +37,7 @@ a, a:hover, a:focus, a:active {
   position: absolute;
 }
 .header{
+  height: 1200px;
   background-image:  
   url('./img/svg/heading-bg.png') ;
   align-content: center;
@@ -49,11 +50,21 @@ a, a:hover, a:focus, a:active {
   position: absolute;
   top: 0;
 }
+/* navbar nomal */
+/* .header__navbar{
+  display: flex;
+  justify-content: center;
+  padding: 54px;
+  padding-left:auto ;
+  padding-right:auto ;
+  margin-bottom: 92px;
+} */
+/* navbar fixed */
 .header__navbar{
-  /* position: fixed; */
-  /* width: 100%; */
-  /* z-index: 999;
-  top: 10px; */
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 10px;
   display: flex;
   justify-content: center;
   padding: 54px;
@@ -66,13 +77,13 @@ a, a:hover, a:focus, a:active {
   margin-right: 9px; 
 }
 .header__main-img{
-  width: 669px;
-  height: 343px;
+  /* width: 669px;
+  height: 343px; */
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 300px;
-  /* margin-top: 256px; */
+  /* padding-top: 257px; */
 }
 .wrap-header-playnow{
   position: relative;;
@@ -231,7 +242,7 @@ a, a:hover, a:focus, a:active {
 
 }
 .feature-card__content--description{
-  width: 204px;
+  width: 258px;
   margin: auto;
   text-align: center;
 }
