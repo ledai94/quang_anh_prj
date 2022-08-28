@@ -330,6 +330,23 @@ main{
       overflow-x: hidden; /* Disable horizontal scroll */
       transition: 0.5s;
     }
+    .bigcloud-gameplay{
+      position: absolute;
+      width: 100%;
+      top: 282px;
+    }
+    .block-game-play__content {
+      position: relative;
+    }
+    .block-game-play {
+      position: relative;
+    }
+    .footer{
+      background-image: url(img/svg/BigCloud\ 1.png);
+      background-position:0% 150%;
+      background-repeat: no-repeat;
+    }
+
 .navbar-mobile.active{
   /* display: block; */
   width: 280px;
@@ -662,5 +679,7 @@ display: block;
     }main{
       background-image: url(img/svg/main-8.png);
     }
+    .footer{
+      background-position:0% 200%;}
 
 }
