@@ -18,6 +18,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.theme.css" integrity="sha512-Cn5/xnOLSKjVpNCsJZCtgQhxp00FcFnlRwgbSG7WGFq1BVvyG+LoOarjXAq//8Vstyu0Na9wvEKLWR67/wAy3w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.theme.min.css" integrity="sha512-wCwx+DYp8LDIaTem/rpXubV/C1WiNRsEVqoztV0NZm8tiTvsUeSlA/Uz02VTGSiqfzAHD4RnqVoevMcRZgYEcQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://use.typekit.net/jbh8mmf.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.8/css/swiper.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css"> -->
+    <link
+    rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
 </head>
 <body>
     <header class="header">
@@ -127,24 +132,33 @@
             <div class="block-game-play__content">
                 <p>The game is based on the concept of creating and growing an ecosystem on a mystery land. This aids individuals in the cloud in locating new territory on which to settle and begin a new life. By growing animals and incubating and cultivating seeds for good growth, this land will become a wealthier, more modern location. You will develop into a skilled adventurer who is free to create your own environment.</p>
             </div>
-            <div class="block-game-play__slideshow">
-                <div class="boxed">
-                    <img class="boxed-child style-border" src="img/svg/slide-show-img-2.jpg" >
+            <!-- <div class="block-game-play__slideshow slideshow-container"> -->
+                
+                <div class="swiper-container">
+                    <ul class="swiper-wrapper">
+                      <li class="swiper-slide ">
+                        <div class="boxed">
+                          <img class="boxed-child" src="img//svg/slide-show-img-2.jpg" />
+                        </div>
+                      </li>
+                      <li class="swiper-slide boxed ">
+                        <div class="boxed">
+                          <img  class="boxed-child" src="img/svg/slide-show-img-1.jpg" />
+                        </div>
+                      <li class="swiper-slide boxed">
+                        <div class="boxed">
+            
+                          <img class="boxed-child" src="img/svg/slide-show-img-3.jpg" />
+                        </div>
+            
+                      </li>
+                    </ul>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
-                <div class="boxed">
-                    <img class="boxed-child" src="img/svg/slide-show-img-1.svg" >
-                </div>                
-                <div class="boxed">
-                    <img class="boxed-child style-border" src="img/svg/slide-show-img-3.jpg" >
-                </div>
-
-
-
-                    <!-- <img src="img/svg/slide-show-img-2.jpg" alt="slide-show-img-2">
-                    <img src="img/svg/slide-show-img-1.svg" alt="slide-show-img-1">
-                    <img src="img/svg/slide-show-img-3.jpg" alt="slide-show-img-3"> -->
-
-            </div>
+            <!-- </div> -->
         </div>
         <div id="features-element" class="block-features ">
             <div class="block-features__title title-content">
@@ -400,6 +414,30 @@
             </a>
           </div>
     </div>
+    <div class="swiper-container">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide ">
+            <div class="boxed">
+              <img class="boxed-child" src="img//svg/slide-show-img-2.jpg" />
+            </div>
+          </li>
+          <li class="swiper-slide boxed ">
+            <div class="boxed">
+              <img  class="boxed-child" src="img/svg/slide-show-img-1.jpg" />
+            </div>
+          <li class="swiper-slide boxed">
+            <div class="boxed">
+
+              <img class="boxed-child" src="img/svg/slide-show-img-3.jpg" />
+            </div>
+
+          </li>
+        </ul>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
 
 
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -409,4 +447,42 @@
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/glide.min.js" integrity="sha512-IkLiryZhI6G4pnA3bBZzYCT9Ewk87U4DGEOz+TnRD3MrKqaUitt+ssHgn2X/sxoM7FxCP/ROUp6wcxjH/GcI5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/glide.js" integrity="sha512-vZGsugWaSqQZuW8N5Z3ild7Tk8NqiZjKffeIQGpnnIs6g7HVZaFZjlLKPIw1qDsrQ5KAxAGfBinglQWu6i/8DA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.8/js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.8/js/swiper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+ var swiper = 
+     new Swiper('.swiper-container',{
+       slidesPerView: '1',
+       spaceBetween: 0,
+       autoplay: false,
+       effect: 'coverflow',
+       grabCursor: true,
+       centeredSlides: true,
+       slidesPerView: 'auto',
+       loop:true,
+       autoHeight:true,
+       initialSlide:1,
+       coverflowEffect: {
+         rotate: 0,
+         stretch: 0,
+         depth: 0,
+         modifier: 1,
+         scale:0.75,
+         slideShadows : true,
+       },
+       pagination: {
+         el: '.swiper-pagination',
+         type: 'bullets',
+         clickable:true
+       },
+       navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+     }
+    );
+</script>
+
 </html>
