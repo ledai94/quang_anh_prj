@@ -554,29 +554,26 @@ background-size: contain;
 background-position: center;
 }
 .sky-graden{
-width:131px ;
-height:26px;
-background-image: url(img/svg/text-skygraden-131.png);
+width:180px ;
+height:40px;
+background-image: url(img/Button-text/Skygarden.png);
+background-repeat: no-repeat;
 }
 .warehouse{
-width:130px ;
-height:22px;
-background-image: url(img/svg/text-warehouse-130-33.png);
+width:180px ;
+height:40px;
+background-image: url(img/Button-text/Warehouse.png);
+background-repeat: no-repeat;
 
 }
 .marketplace{
-width:142px ;
-height:26px;
-background-image: url(img/svg/text-marketplace-141.png);
+width:148px ;
+height:40px;
+background-image: url(img/Button-text/Marketplace.png);
 
 }
 .footer__text.text-defaul-title-style{
 width: 377px;
-height: 33px;
-background-image: url(img/svg/text-social-377-33.png);
-background:transparent;
-background-size: contain;
-background-position: center;
 }
 .pc-hr .block-roadmap__time-line--hr{
 display: block;
@@ -643,9 +640,6 @@ padding: 8px;
   padding: 0 !important;
   border-radius: 3%;
   
-  /* border-radius: 10px; */
-  margin-left: 10px;
-  margin-right: 10px;
   }
   .swiper-container .boxed {
     width: 960px;
@@ -654,8 +648,9 @@ padding: 8px;
     border-radius: 3%;
     margin: 0 !important;
     /* border-radius: 10px; */
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    margin: auto;
     }
   .swiper-container .boxed-child {
     width: 100%;
