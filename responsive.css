@@ -614,11 +614,29 @@ width: 32px;
 display: block;
   width: 225px;
   height: 78px;
-  background-image: url(img/svg/bg-playnow.svg);
+  background-image: url("/img/Button-text-1/Playnow\ button_Normal.png");
   background-size: contain;
   margin: auto;
   margin-bottom: 40px;
 }
+.wrap-btn-play-now-pc:hover{
+  display: block;
+    width: 225px;
+    height: 78px;
+    background-image: url("/img/Button-text-1/Playnow\ button_Hover.png.png");
+    background-size: contain;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .wrap-btn-play-now-pc:active{
+    display: block;
+      width: 225px;
+      height: 78px;
+      background-image: url("/img/Button-text-1/Playnow\ button_Active.png.png");
+      background-size: contain;
+      margin: auto;
+      margin-bottom: 40px;
+    }
 .btn-play-now-pc {
   width: 186px;
   height: 55px;
