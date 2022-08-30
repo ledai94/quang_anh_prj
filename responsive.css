@@ -61,17 +61,17 @@
     right: -171px;
   }
   .node-one {
-      left: -240px;
-    }
-    .node-two {
-      left: 155px;
-    }
-    .node-three {
-      left: 504px;
-    }
-    .node-four {
-      left: 648px;;
-    }
+    left: -240px;
+  }
+  .node-two {
+    left: 160px;
+  }
+  .node-three {
+    left: 520px;
+  }
+  .node-four {
+    left: 665px;
+  }
     .block-game-play__slideshow img{
       width: 600px !important;
     }
