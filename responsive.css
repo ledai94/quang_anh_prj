@@ -174,30 +174,57 @@ main{
       position: absolute;
       top: 40px;
       left: 16px;
-      width: 48px;
-      height: 48px;
+      width: 40px;
+      height: 40px;
       background-image: url("img/Button-text/buttonCircle.png");
+      background-size: cover;
   }
-  /* .toggle-navbar-mobile:hover{
-    background-image: url("img/svg/btn-circle-hover.svg");
 
-  }
-  .toggle-navbar-mobile:active{
-    background-image: url("img/svg//btn-circle-active.svg");
-  } */
+  .toggle-navbar-mobile:active {
+    top: 42px;
+    left: 16px;
+    width: 40px;
+    height: 40px;
+    background-image: url("img/Button-text/buttonCircleactive.png");
+    background-size: cover;
+
+  } 
 
   .toggle-navbar-mobile img{
     position: relative;
-    top:7px;
+    top:3px;
     left: 1px;
     display: block;
-    width: 16px ;
+    width: 13px ;
     height: 13px;
     margin: auto;
     transform: translateY(50%);
   }
 
-
+/* Position the close button (top right corner) */
+.navbar-mobile .closebtn {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-image: url("img/Button-text/buttonCircle.png");
+  background-size: cover;
+}
+.navbar-mobile .closebtn:active {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-image: url("img/Button-text/buttonCircleactive.png");
+  background-size: cover;
+}
+.navbar-mobile .closebtn img{
+  position: relative;
+  top:3px;
+  display: block;
+  width: 13px ;
+  height: 13px;
+  margin: auto;
+  transform: translateY(50%);
+}
   .block-story__content{
       height: 1132px;
       width: 382px;
@@ -521,15 +548,10 @@ margin-bottom: 32px;
   font-size: 40px;
   padding: 0px;
 }
-.navbar-mobile .closebtn img{
-  width: 40px;
-}
+
 /* .navbar-mobile .closebtn img{
   width: 40px;
 } */
-.closebtn{
-  /* background-image: url("img/svg/btn-circle-normal.svg"); */
-}
 .social-text-mobile{
   width: 196px !important; 
   /* height:52px !important; */
