@@ -403,15 +403,50 @@ main{
 .navbar-mobile-item-text{
   position: relative;
 }
-.navbar-mobile-item-text .navbar-story{
-  background-image: url('img/svg/btn-navbar-pc-story-bg.svg');
+.navbar-mobile-item-text .navbar-item{
+  border-radius: 11%;
 }
+.navbar-mobile-item-text .navbar-story{
+  width: 115px ;
+  height:54px;
+  background-image: url('img/Button-text-1/Story_Normal.png');
+  background-size: cover;
+}
+.navbar-mobile-item-text:active .navbar-story{
+  background-image: url('img/Button-text-1/Story_Active.png');
+}
+
 .navbar-mobile-item-text .navbar-game-play{
-  background-image: url('img/svg/btn-navbar-mobile-gameplay.svg');
-}  .navbar-mobile-item-text .navbar-feature{
-  background-image: url('img/svg/btn-navbar-mobile-features.svg');
-}  .navbar-mobile-item-text .navbar-roadmap{
-  background-image: url('img/svg/btn-navbar-mobile-roadmap.svg');
+  width: 167px;
+  height: 54px;
+  background-size: cover;
+  background-image: url('img/Button-text-1/Gameplay_Normal.png');
+}  
+.navbar-mobile-item-text:active .navbar-game-play{
+
+  background-image: url('img/Button-text-1/Gameplay_Active.png');
+} 
+.navbar-mobile-item-text .navbar-feature{
+  width: 151px;
+  height: 54px;
+  background-image: url('img/Button-text-1/Features_Normal.png');
+  background-size: cover;
+
+}  
+.navbar-mobile-item-text:active .navbar-feature{
+  background-image: url('img/Button-text-1/Features_Active.png');
+}  
+.navbar-mobile-item-text .navbar-roadmap{
+  width: 183px;
+  height: 54px;
+
+  background-image: url('img/Button-text-1/Roadmap_Normal.png');
+  background-size: cover;
+
+}
+.navbar-mobile-item-text:active .navbar-roadmap{
+  background-image: url('img/Button-text-1/Roadmap_Active.png');
+
 }
 .navbar-story {
 width: 115px;
