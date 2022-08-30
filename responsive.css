@@ -60,16 +60,16 @@
     top: 467px;
     right: -171px;
   }
-  .node-one {
+  .show-to-1243 .node-one {
     left: -240px;
   }
-  .node-two {
+  .show-to-1243 .node-two {
     left: 160px;
   }
-  .node-three {
+  .show-to-1243 .node-three {
     left: 520px;
   }
-  .node-four {
+  .show-to-1243 .node-four {
     left: 665px;
   }
     .block-game-play__slideshow img{
@@ -516,14 +516,28 @@ margin-bottom: 32px;
 /* Position the close button (top right corner) */
 .navbar-mobile .closebtn {
   position: absolute;
+  width: 53px;
+  height: 53px;
   top: 20px;
   right: 45px;
   font-size: 40px;
   padding: 0px;
+  background-image: url(img/Button-text/buttonCircle.png);
+  background-size: cover;
 }
-.navbar-mobile .closebtn img{
+.navbar-mobile .closebtn:after{
+  display: inline-block;
+  width: 10px;
+  font-size: 25px;
+  content: "\00d7"; /* This will render the 'X' */
+  position: relative;
+  left: 25%;
+
+
+}
+/* .navbar-mobile .closebtn img{
   width: 40px;
-}
+} */
 .closebtn{
   /* background-image: url("img/svg/btn-circle-normal.svg"); */
 }
@@ -655,22 +669,22 @@ display: block;
   margin-bottom: 40px;
 }
 .wrap-btn-play-now-pc:hover{
-  display: block;
+  /* display: block;
     width: 225px;
-    height: 78px;
+    height: 78px; */
     background-image: url("/img/Button-text-1/Playnow\ button_Normal.png");
-    background-size: contain;
+    /* background-size: contain;
     margin: auto;
-    margin-bottom: 40px;
+    margin-bottom: 40px; */
   }
   .wrap-btn-play-now-pc:active{
-    display: block;
+    /* display: block;
       width: 225px;
-      height: 78px;
+      height: 78px; */
       background-image: url("/img/Button-text-1/Playnow\ button_Active.png");
-      background-size: contain;
+      /* background-size: contain;
       margin: auto;
-      margin-bottom: 40px;
+      margin-bottom: 40px; */
     }
 .btn-play-now-pc {
   width: 186px;

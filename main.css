@@ -69,6 +69,55 @@ margin-bottom: 92px;
 margin-left: 9px;
 margin-right: 9px; 
 }
+#navbar-story-navbar-item{
+  width: 100px;
+  height: 56px;
+  background-image: url(img/Button-text-1/Story_Normal.png);
+  background-size:cover;
+}
+#navbar-story-navbar-item:hover{
+  background-image: url(img/Button-text-1/Story_Hover.png);
+}
+#navbar-story-navbar-item:active{
+  background-image: url(img/Button-text-1/Story_Active.png);
+}
+ #navbar-game-play-navbar-item{
+  width: 141px;
+  height: 56px;
+  background-image: url(img/Button-text-1/Gameplay_Normal.png);
+  background-size:cover;
+ }
+ #navbar-game-play-navbar-item:hover{
+  background-image: url(img/Button-text-1/Gameplay_Hover.png);
+ }
+ #navbar-game-play-navbar-item:active{
+  background-image: url(img/Button-text-1/Gameplay_Active.png);
+ }
+ #navbar-feature-navbar-item{
+  width: 128px;
+  height: 56px;
+  background-image: url(img/Button-text-1/Features_Normal.png);
+  background-size:cover;
+ }
+ #navbar-feature-navbar-item:hover{
+  background-image: url(img/Button-text-1/Features_Hover.png);
+ }
+ #navbar-feature-navbar-item:active{
+  background-image: url(img/Button-text-1/Features_Active.png);
+ }
+#navbar-roadmap-navbar-item{
+  width: 153px;
+  height: 56px;
+  background-image: url(img/Button-text-1/Roadmap_Normal.png);
+  background-size:cover;
+}
+#navbar-roadmap-navbar-item:hover{
+  background-image: url(img/Button-text-1/Roadmap_Hover.png);
+}
+#navbar-roadmap-navbar-item:active{
+  background-image: url(img/Button-text-1/Roadmap_Active.png);
+}
+
 .header__main-img{
 width: 669px;
 height: 343px;
@@ -502,22 +551,22 @@ margin-bottom: 40px;
 }
 
 .wrap-btn-play-now-pc:hover{
-  display: block;
+  /* display: block;
   width: 324px;
-  height: 111px;
+  height: 111px; */
   background-image:  url(img/Button-text-1/Playnow\ button_Hover.png);
-  background-size: contain;
+  /* background-size: contain;
   margin: auto;
-  margin-bottom: 40px;
+  margin-bottom: 40px; */
 }
 .wrap-btn-play-now-pc:active{
-  display: block;
+  /* display: block;
   width: 324px;
-  height: 111px;
+  height: 111px; */
   background-image:  url(img/Button-text-1/Playnow\ button_Active.png);
-  background-size: contain;
+  /* background-size: contain;
   margin: auto;
-  margin-bottom: 40px;
+  margin-bottom: 40px; */
 }
 
 .btn-play-now-pc{
