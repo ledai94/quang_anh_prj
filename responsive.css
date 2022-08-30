@@ -516,24 +516,13 @@ margin-bottom: 32px;
 /* Position the close button (top right corner) */
 .navbar-mobile .closebtn {
   position: absolute;
-  width: 53px;
-  height: 53px;
   top: 20px;
   right: 45px;
   font-size: 40px;
   padding: 0px;
-  background-image: url(img/Button-text/buttonCircle.png);
-  background-size: cover;
 }
-.navbar-mobile .closebtn:after{
-  display: inline-block;
-  width: 10px;
-  font-size: 25px;
-  content: "\00d7"; /* This will render the 'X' */
-  position: relative;
-  left: 25%;
-
-
+.navbar-mobile .closebtn img{
+  width: 40px;
 }
 /* .navbar-mobile .closebtn img{
   width: 40px;
