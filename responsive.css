@@ -131,6 +131,7 @@
   .hide-on-pc {
       display: none;
   }
+  
   main{
       background-image: url('img/svg/main-6.png');
       align-content: center;
@@ -199,6 +200,13 @@ main{
     height: 13px;
     margin: auto;
     transform: translateY(50%);
+  }
+  .navbar-mobile .closebtn {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-image: url("img/Button-text/buttonCircleactive.png");
+    background-size: cover;
   }
 
 /* Position the close button (top right corner) */
@@ -671,6 +679,15 @@ width: 32px;
   width: 150px;
 }
 .wrap-btn-play-now-pc{
+  display: block;
+    width: 225px;
+    height: 78px;
+    background-image: url("/img/Button-text-1/Playnow\ button_Active.png.png");
+    background-size: contain;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+.wrap-btn-play-now-pc{
 display: block;
   width: 225px;
   height: 78px;
@@ -679,15 +696,6 @@ display: block;
   margin: auto;
   margin-bottom: 40px;
 }
-.wrap-btn-play-now-pc:hover{
-  /* display: block;
-    width: 225px;
-    height: 78px; */
-    background-image: url("/img/Button-text-1/Playnow\ button_Normal.png");
-    /* background-size: contain;
-    margin: auto;
-    margin-bottom: 40px; */
-  }
   .wrap-btn-play-now-pc:active{
     /* display: block;
       width: 225px;
