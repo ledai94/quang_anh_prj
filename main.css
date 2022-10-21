@@ -70,8 +70,8 @@ margin-left: 9px;
 margin-right: 9px; 
 }
 #navbar-story-navbar-item{
-  width: 100px;
-  height: 56px;
+  width: 111px;
+  height: 63px;
   background-image: url(img/Button-text-1/Story_Normal.png);
   background-size:cover;
 }
@@ -82,8 +82,8 @@ margin-right: 9px;
   background-image: url(img/Button-text-1/Story_Active.png);
 }
  #navbar-game-play-navbar-item{
-  width: 141px;
-  height: 56px;
+  width: 163px;
+  height: 63px;
   background-image: url(img/Button-text-1/Gameplay_Normal.png);
   background-size:cover;
  }
@@ -94,8 +94,8 @@ margin-right: 9px;
   background-image: url(img/Button-text-1/Gameplay_Active.png);
  }
  #navbar-feature-navbar-item{
-  width: 128px;
-  height: 56px;
+  width: 147px;
+  height: 63px;
   background-image: url(img/Button-text-1/Features_Normal.png);
   background-size:cover;
  }
@@ -106,8 +106,8 @@ margin-right: 9px;
   background-image: url(img/Button-text-1/Features_Active.png);
  }
 #navbar-roadmap-navbar-item{
-  width: 153px;
-  height: 56px;
+  width: 179px;
+  height: 63px;
   background-image: url(img/Button-text-1/Roadmap_Normal.png);
   background-size:cover;
 }
@@ -115,6 +115,18 @@ margin-right: 9px;
   background-image: url(img/Button-text-1/Roadmap_Hover.png);
 }
 #navbar-roadmap-navbar-item:active{
+  background-image: url(img/Button-text-1/Roadmap_Active.png);
+}
+#navbar-whitelist-navbar-item{
+  width: 179px;
+  height: 63px;
+  background-image: url(img/Button-text-1/Roadmap_Normal.png);
+  background-size:cover;
+}
+#navbar-whitelist-navbar-item:hover{
+  background-image: url(img/Button-text-1/Roadmap_Hover.png);
+}
+#navbar-whitelist-navbar-item:active{
   background-image: url(img/Button-text-1/Roadmap_Active.png);
 }
 
