@@ -11,8 +11,7 @@
   
 }
 @media(max-width:1243px){
-  .block-roadmap__time-line--nodelist{
-  }
+
   .hide-to-1243{
       display: none;
   }
@@ -879,4 +878,35 @@ display: block;
   .footer{
     background-position:0% 200%;}
 
+}
+@media (min-width: 1243px) and (max-width: 1460px){
+  .swiper-button-prev,.swiper-button-next{
+    display: none !important;
+  }
+}
+@media (min-width: 414px) and (max-width: 1243px){
+  .swiper-button-prev,.swiper-button-next{
+    display: block !important;
+  }
+  .swiper-button-prev,.swiper-button-next {
+    width: 60px !important;
+    height: 60px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 876px){
+  .swiper-button-prev,.swiper-button-next{
+    display: none !important;
+  }
+}
+@media (min-width: 589px) and (max-width: 768px){
+  .swiper-button-prev,.swiper-button-next{
+    display: block !important;
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
+@media (max-width: 589px){
+  .swiper-button-prev,.swiper-button-next{
+    display: none !important;
+  }
 }

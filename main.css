@@ -98,12 +98,18 @@ margin-right: 9px;
   height: 63px;
   background-image: url(img/Button-text-1/Features_Normal.png);
   background-size:cover;
+  position: relative;
+  top: -4px;
  }
  #navbar-feature-navbar-item:hover{
   background-image: url(img/Button-text-1/Features_Hover.png);
+  position: relative;
+  top: -4px;
  }
  #navbar-feature-navbar-item:active{
   background-image: url(img/Button-text-1/Features_Active.png);
+  position: relative;
+  top: -4px;
  }
 #navbar-roadmap-navbar-item{
   width: 179px;
@@ -775,17 +781,16 @@ padding: 8px;
 }
 .swiper-button-prev{
   /* left: 133px !important; */
-  left: 5% !important;
 }
 
 .swiper-button-next{
   /* right: 133px !important; */
-  right: 5% !important;
 }
 .swiper-button-next{
 
 }
 .swiper-button-prev {
+  left: 5% !important;
   width: 89px !important;
   height: 89px !important;
   background-image: url("img/svg/pre-btn.png") !important;
@@ -794,6 +799,7 @@ padding: 8px;
 }
 
 .swiper-button-next {
+  right: 5% !important;
   width: 89px !important;
   height: 89px !important;
   background-image: url("img/svg/next-btn.png") !important;
