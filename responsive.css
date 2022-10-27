@@ -482,6 +482,18 @@ main{
   background-image: url('img/Button-text-1/Roadmap_Active.png');
 
 }
+
+.navbar-mobile-item-text .navbar-whitelist{
+  width: 183px;
+  height: 54px;
+  background-image: url('img/Button-text-1/Whitelist_Normal.png');
+  background-size: cover;
+
+}
+.navbar-mobile-item-text:active .navbar-whitelist{
+  background-image: url('img/Button-text-1/Whitelist_Active.png');
+
+}
 .navbar-story {
 width: 115px;
 height: 49px;
@@ -630,7 +642,7 @@ width: 32px;
       margin-bottom: 270px;
   }
   .header__main-img-wrap{
-      padding-top: 89px;
+      padding-top: 40px;
   }
   .header{
       height: 790px;
@@ -684,7 +696,7 @@ width: 32px;
     background-image: url("/img/Button-text-1/Playnow\ button_Active.png.png");
     background-size: contain;
     margin: auto;
-    margin-bottom: 40px;
+    margin-bottom: 12px;
   }
 .wrap-btn-play-now-pc{
 display: block;
@@ -693,7 +705,7 @@ display: block;
   background-image: url("/img/Button-text-1/Playnow\ button_Normal.png");
   background-size: contain;
   margin: auto;
-  margin-bottom: 40px;
+  margin-bottom: 12px;
 }
   .wrap-btn-play-now-pc:active{
     /* display: block;
@@ -716,8 +728,8 @@ display: block;
       display: none;
   }
   .header{
-      height: 790px;
-      background-position: 50% -128px;
+      height: 712px;
+      background-position: 50% -66px;
   }
   .header__main-img{
       width: 329px;
@@ -725,7 +737,7 @@ display: block;
       margin-bottom: 240px
   }
   .header__main-img-wrap{
-      padding-top: 89px;
+      padding-top: 40px;
   }
   .header__download{
       flex-direction: column;
@@ -788,19 +800,20 @@ display: block;
 }
 @media(max-width:414px){
   .header{
-      height: 790px;
-      background-position: 50% -128px;
+      height: 564px;
+      background-position: center;
+      background-image: url(./img/svg/header-bg-mobile.png);
   }
   .title-content img{
     margin-bottom: 36px;
   }
   .header__main-img{
       width: 329px;
-      height: 169px;
-      margin-bottom: 240px
+      height: 136px;
+      margin-bottom: 195px
   }
   .header__main-img-wrap{
-      padding-top: 89px;
+      padding-top: 40px;
   }
   .hide-on-mobile {
       display: none;
@@ -873,6 +886,7 @@ display: block;
     left: 50%;
     transform: translate(-50%, -50%); 
   }main{
+    padding-top: 24px;
     background-image: url(img/svg/main-8.png);
   }
   .footer{

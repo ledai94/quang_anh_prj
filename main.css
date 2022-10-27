@@ -47,6 +47,7 @@ align-content: center;
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
+height: 900px;
 /* padding-top:1px ; */
 }
 .bg-header-footer{
@@ -60,10 +61,10 @@ top: 0;
 top: 10px; */
 display: flex;
 justify-content: center;
-padding: 54px;
+padding: 47px;
 padding-left:auto ;
 padding-right:auto ;
-margin-bottom: 92px;
+margin-bottom: 10px;
 }
 .navbar-item-wrap{
 margin-left: 9px;
@@ -126,23 +127,23 @@ margin-right: 9px;
 #navbar-whitelist-navbar-item{
   width: 179px;
   height: 63px;
-  background-image: url(img/Button-text-1/Roadmap_Normal.png);
+  background-image: url(img/Button-text-1/Whitelist_Normal.png);
   background-size:cover;
 }
 #navbar-whitelist-navbar-item:hover{
-  background-image: url(img/Button-text-1/Roadmap_Hover.png);
+  background-image: url(img/Button-text-1/Whitelist_Hover.png);
 }
 #navbar-whitelist-navbar-item:active{
-  background-image: url(img/Button-text-1/Roadmap_Active.png);
+  background-image: url(img/Button-text-1/Whitelist_Active.png);
 }
 
 .header__main-img{
-width: 669px;
-height: 343px;
+width: 480px;
+height: 246px;
 display: block;
 margin-left: auto;
 margin-right: auto;
-margin-bottom: 300px;
+margin-bottom: 227px;
 /* margin-top: 256px; */
 }
 .wrap-header-playnow{
